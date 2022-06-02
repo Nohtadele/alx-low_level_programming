@@ -8,7 +8,6 @@
 
 int main(void)
 	{
-	
 	char ch;
 	int in;
 	long int lin;
