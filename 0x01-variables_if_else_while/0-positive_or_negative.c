@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-	int num;
+	int n;
 	srand(time(0));
-	num = rand() - RAND_MAX / 2;
-	if (num > 0)
-		printf("%d is positive\n", num);
-	else if (num < 0)
-		printf("%d is negative\n", num);
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
 	else
-		printf("%d is zero\n", num);
+		printf("%d is zero\n", n);
 	
 	return (0);
 }
