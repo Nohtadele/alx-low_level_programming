@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main - check the last digit of a number
+/**
+ * main - entry point
+ * check the last digit of a number
  * return: 0 success
  */
 int main(void)
