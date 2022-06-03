@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Prints double digit numbers combined 
+ * Prints double digit numbers combined
  * Return: 0 success
  */
 int main(void)
