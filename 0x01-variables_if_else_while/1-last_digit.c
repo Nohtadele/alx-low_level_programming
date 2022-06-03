@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* 
+/*
  * main - check the last digit of a number
- * betty style doc for function main goes there 
-*/
+ * return: 0 success
+ */
 int main(void)
 {
 	int n;
