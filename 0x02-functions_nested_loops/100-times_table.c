@@ -2,6 +2,7 @@
 /**
  * print_times_table - function
  * Description: Print the n time matrix table up to 15
+ * @n: Times table number
  * Return: 0 success
  */
 void print_times_table(int n)
