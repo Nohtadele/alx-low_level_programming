@@ -2,12 +2,12 @@
 /**
  * print_last_digit - function
  * Description: Print last digit of a given number
- * @n: is the passed value of the number to check
+ * @r: is the passed value of the number to check
  * Return: the value of the last digit
  */
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-	int num = n;
+	int num = r;
 	int last_digit;
 
 	if (num < 0)

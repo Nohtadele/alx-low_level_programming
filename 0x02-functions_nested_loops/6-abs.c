@@ -2,12 +2,12 @@
 /**
  * _abs - function
  * Description: Absolute value of a given number
- * @n: is the passed value of the number to check
+ * @r: is the passed value of the number to check
  * Return: Absolute value of a number
  */
-int _abs(int n)
+int _abs(int r)
 {
-	int num = n;
+	int num = r;
 
 	if (num < 0)
 		num = -num;
