@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - function
+ * _abs - function
  * Description: Absolute value of a given number
  * @n: is the passed value of the number to check
  * Return: Absolute value of a number
