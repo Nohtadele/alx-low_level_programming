@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - start point
+ * Main - start point
  * Print _putchar
- * return: 0 success
+ * Return: 0 success
  */
 int main(void)
 {
