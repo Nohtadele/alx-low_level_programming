@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * ain - start point
+ * main - start point
  * Print _putchar
  * Return: 0 success
  */
