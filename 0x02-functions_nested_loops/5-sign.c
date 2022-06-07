@@ -3,7 +3,7 @@
 /**
  * print_sign - function
  * Description: Checks whether a sign of a number is +ve or -ve
- * @c: is the passed value of the character to check
+ * @n: is the passed value of the number to check
  * Return: 1 - positive -1 - negative 0 - zero
  */
 int print_sign(int n)
