@@ -2,7 +2,7 @@
 
 /**
  * main - start point
- * Print _putchar
+ * Description: Print _putchar
  * Return: 0 success
  */
 int main(void)
