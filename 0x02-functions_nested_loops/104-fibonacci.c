@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <math.h>
 
 /**
  * main - function
@@ -9,15 +10,14 @@
 int main(void)
 {
 	int i;
-	int f1 = 0, f2 = 1, sum;
+	int f1 = 0, f2 = 1, f3;
 
-	for (i = 0 ; i < 98 ; i++)
+	f3 = f1 + f2;
+	printf("%d, %d, %d, ", f1, f2, f3);
+	for (i = 1 ; i < 96 ; i++)
 	{
-		sum = f1 + f2;
-		printf("%d", sum);
-		f1 = f2;
-		f2 = sum;
-		if (i == 97)
+		printf("%f, ", (f3 * pow(1.618, i)));
+		if (i == 95)
 			printf("\n");
 		else
 			printf(", ");
