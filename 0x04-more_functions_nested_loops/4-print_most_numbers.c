@@ -5,7 +5,7 @@
  * Description: Print numbers without 2 and 4
  * Return: Nothing to return
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
