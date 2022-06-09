@@ -1,13 +1,11 @@
-#include "stdio.h"
+#include <stdio.h>
 
 /**
  * main - check the code
- * Description: A program that print numbers
- * from 1 to 100 with replacing the word
- * Fizz for multiples of 3, Buzz for
- * multiples of 5 and FizzBuzz for
- * multiples of both
- * Return: Always 0s
+ * Description: A program that print numbers from 1 to 100 
+ * with replacing the word Fizz for multiples of 3, Buzz for
+ * multiples of 5 and FizzBuzz for multiples of both
+ * Return: Always 0
  */
 int main(void)
 {
@@ -24,12 +22,7 @@ int main(void)
 				if ((i % 5) == 0)
 					printf("Buzz ");
 				else
-				{
-					if (i == 100)
-						printf("%d", i);
-					else
-						printf("%d ", i);
-				}
+					printf("%d ", i);
 	}
 	printf("\n");
 	return (0);
