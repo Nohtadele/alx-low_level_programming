@@ -3,9 +3,11 @@ void fizz_buzz(void);
 
 /**
  * fizz_buzz - function
- * Description: Print line n times
- * @n: Number of redundency to make the square
- * Return: Nothing to return
+ * Description: Print numbers from 1 to 100
+ * with replacing the word Fizz for multiples of 3,
+ * Buzz for multiples of 5 and
+ * FizzBuzz for multiples of both
+ * Return: Nothing
  */
 void fizz_buzz(void)
 {
@@ -26,6 +28,12 @@ void fizz_buzz(void)
 	}
 	printf("\n");
 }
+
+/**
+ * main - Intery point
+ * Description: Main intry point
+ * Return: 0 if success
+ */
 
 int main(void)
 {
