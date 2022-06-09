@@ -2,7 +2,7 @@
 
 /**
  * mul - function
- * Description: Checks whether a character is uppercase or not
+ * Description: Multiplies two numbers
  * @a: is the first number to multiply
  * @b: is the second number to multiply
  * Return: the multiple
