@@ -1,15 +1,15 @@
 #include "stdio.h"
-void fizz_buzz(void);
 
 /**
- * fizz_buzz - function
- * Description: Print numbers from 1 to 100
+ * main - function
+ * Description: A program that print numbers from 1 to 100
  * with replacing the word Fizz for multiples of 3,
  * Buzz for multiples of 5 and
  * FizzBuzz for multiples of both
- * Return: Nothing
+ * Return: 0 Success
  */
-void fizz_buzz(void)
+
+int main(void)
 {
 	int i;
 
@@ -27,16 +27,5 @@ void fizz_buzz(void)
 					printf("%d ", i);
 	}
 	printf("\n");
-}
-
-/**
- * main - Intery point
- * Description: Main intry point
- * Return: 0 if success
- */
-
-int main(void)
-{
-	fizz_buzz();
 	return (0);
 }
