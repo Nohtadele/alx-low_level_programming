@@ -24,4 +24,6 @@ void print_triangle(int n)
 		count--;
 		_putchar('\n');
 	}
+	if (n <= 0)
+		_putchar('\n');
 }
