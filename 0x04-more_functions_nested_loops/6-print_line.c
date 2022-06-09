@@ -3,6 +3,7 @@
 /**
  * print_line - function
  * Description: Print line n times
+ * @n: Number of redundency to make the line
  * Return: Nothing to return
  */
 void print_line(int n)
