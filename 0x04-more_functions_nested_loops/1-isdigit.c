@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - function
- * Description: Checks whether a character is uppercase or not
+ * Description: Checks whether a character is digit or not
  * @c: is the passed value of the character to check
  * Return: 1 - success 0 - not success
  */
