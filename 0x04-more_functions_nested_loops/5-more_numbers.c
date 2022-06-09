@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - function
- * Description: Print numbers without 2 and 4
+ * Description: Print numbers up to 14, 10 times
  * Return: Nothing to return
  */
 void more_numbers(void)
@@ -13,7 +13,7 @@ void more_numbers(void)
 	{
 		for (j = 0 ; j <= 14 ; j++)
 		{
-			if(j < 10)
+			if (j < 10)
 				_putchar(j + '0');
 			else
 			{
