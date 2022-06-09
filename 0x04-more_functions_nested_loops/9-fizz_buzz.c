@@ -9,7 +9,6 @@
  * multiples of both
  * Return: 0 Success
  */
-
 int main(void)
 {
 	int i;
