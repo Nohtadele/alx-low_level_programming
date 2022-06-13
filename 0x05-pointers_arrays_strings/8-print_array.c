@@ -5,6 +5,7 @@
  * print_array - function
  * Description: Print the value of array
  * @a: pointer points to the array
+ * @n: Number of array index values to be printed
  * Return: nothing
  */
 void print_array(int *a, int n)
