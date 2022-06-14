@@ -32,9 +32,6 @@ int _atoi(char *s)
 	}
 	if (flag == 1 && neg_count % 2 != 0)
 		num *= -1;
-	if (flag == 1)
-		return (num);
-	else
-		return (0);
+	return (num);
 }
 
