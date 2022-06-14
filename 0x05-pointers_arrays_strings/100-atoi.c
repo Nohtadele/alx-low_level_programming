@@ -11,12 +11,11 @@
 int _atoi(char *s)
 {
 	unsigned int num;
-	int flag, neg_count, pos_count;
+	int flag, neg_count;
 
 	num = 0;
 	flag = 0;
 	neg_count = 0;
-	pos_count = 0;
 	while (*s)
 	{
 		if (*s >= '0' && *s <= '9')
@@ -29,12 +28,9 @@ int _atoi(char *s)
 				break;
 		if (*s == '-')
 			neg_count++;
-		else
-			if (*s == '+')
-				pos_count++;
 		s++;
 	}
-	if (flag == 1 && neg_count > pos_count)
+	if (flag == 1 && neg_count % 2 != 0)
 		num *= -1;
 	if (flag == 1)
 		return (num);
