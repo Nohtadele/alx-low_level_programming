@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strncat - function
@@ -9,7 +10,7 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int count1, count2, full_size, x;
+	int count1, count2, x, full_size;
 
 	count1 = 0;
 	count2 = 0;
@@ -17,9 +18,9 @@ char *_strncat(char *dest, char *src, int n)
 		count1++;
 	while (*(src + count2) != '\0')
 		count2++;
-	full_size = count1 + count2;
 	if (n < count2)
 	{
+		full_size = count1 + n;
 		for (x = 0 ; x < n ; x++)
 		{
 			*(dest + count1) = *(src + x);
