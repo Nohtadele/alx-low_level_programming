@@ -2,7 +2,7 @@
 
 /**
  * _strcat - function
- * Description: Copy string value of a variable to another variable
+ * Description: Merging two strings
  * @dest: pointer to the first string value
  * @src: pointer to the second string value
  * Return: pointer value of the merged strings
