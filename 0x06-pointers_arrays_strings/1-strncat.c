@@ -33,7 +33,6 @@ char *_strncat(char *dest, char *src, int n)
 		{
 			*(dest + count1) = *(src + x);
 			count1++;
-		
 		}
 	}
 	return (dest);
