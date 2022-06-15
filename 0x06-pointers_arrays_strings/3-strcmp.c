@@ -5,7 +5,6 @@
  * Description: compare two strings
  * @s1: pointer to the first string value
  * @s2: pointer to the second string value
- * @n: number of bytes to be copied
  * Return: pointer value of the copied strings
  */
 int _strcmp(char *s1, char *s2)
