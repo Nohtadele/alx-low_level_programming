@@ -18,7 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (*(src + count2) != '\0')
 		count2++;
 	full_size = count1 + count2;
-	if (n <= count2)
+	if (n < count2)
 	{
 		for (x = 0 ; x < n ; x++)
 		{
