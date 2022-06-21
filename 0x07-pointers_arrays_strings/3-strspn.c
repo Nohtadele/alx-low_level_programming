@@ -3,30 +3,30 @@
 
 /**
  * _strspn - function
- * Description: counts characters which dont match the given string characters
+ * Description: counts characters which match the given string characters
  * @s: the given string
- * @accept: Character to avoid
- * Return: number of characters which dont match the second string characters
+ * @accept: Character to compare
+ * Return: number of characters which match the second string characters
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, flag;
+	int i;
 	unsigned int count;
 
 	count = 0;
 	while (*s)
 	{
-		flag = 0;
-		for (i = 0 ; accept[i] && accept[i] > '\0' ; i++)
+		for (i = 0 ; accept[i] ; i++)
 		{
 		if (*s == accept[i])
 		{
-			flag++;
+			count++;
 			break;
 		}
+		else
+			if (accept[i + 1] == '\0')
+				return (count);
 		}
-		if (flag == 0)
-			count++;
 		s++;
 	}
 	return (count);
