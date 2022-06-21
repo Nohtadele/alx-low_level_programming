@@ -11,7 +11,7 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-	char *loc;
+	char *loc = NULL;
 
 	i = 0;
 	while (s[i])
