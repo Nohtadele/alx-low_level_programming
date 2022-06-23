@@ -1,8 +1,6 @@
 #include "main.h"
 
-int _strlen_recursion(char *s);
 int _palindrome(char *s, char *tmp, int n);
-
 
 /**
  * is_palindrome - function
