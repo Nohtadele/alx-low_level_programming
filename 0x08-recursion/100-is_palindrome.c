@@ -15,6 +15,8 @@ int is_palindrome(char *s)
 	int x;
 	char *tmp = s;
 
+	if (!(*s))
+		return (1);
 	x = _strlen_recursion(s);
 	if (_palindrome(s, tmp, x) == x)
 		return (1);
