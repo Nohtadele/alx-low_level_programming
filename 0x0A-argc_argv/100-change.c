@@ -31,8 +31,7 @@ int main(int argc, char *argv[])
 		coin_count += coin / coin_type[i];
 		if (coin % coin_type[i] == 0)
 			break;
-		else
-			coin = coin % coin_type[i];
+		coin = coin % coin_type[i];
 	}
 	printf("%d\n", coin_count);
 	return (0);
