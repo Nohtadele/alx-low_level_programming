@@ -15,12 +15,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	arr_mem = malloc(size * nmemb + 1);
+	arr_mem = malloc(size * nmemb);
 	if (arr_mem == NULL)
 		return (NULL);
-	for (i = 0 ; i < nmemb ; i++)
-		arr_mem[i] = 0;
-	arr_mem[i] = '\0';
+	for (i = 0 ; i < (nmemb * size) ; i++)
+		arr_mem[i] = '\0';
 	return (arr_mem);
 }
 
