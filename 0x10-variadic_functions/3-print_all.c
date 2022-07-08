@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 {
 	int i, j;
 	va_list all_str;
-	char *tmp_str = "";
+	char *tmp_sep = "";
 
 	func_list functions[] = {{"c", print_char},
 		{"i", print_int},
@@ -35,8 +35,9 @@ void print_all(const char * const format, ...)
 			j++;
 		if (j < 4)
 		{
+			printf("%s", tmp_sep);
 			functions[j].func_ptr(all_str);
-			j != 3 ? printf(", ") : printf("%s", tmp_str);
+			tmp_sep = ", ";
 		}
 		i++;
 	}
