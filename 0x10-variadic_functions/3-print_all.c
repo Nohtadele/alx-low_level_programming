@@ -11,7 +11,6 @@ void print_str(va_list all_str);
 /**
  * print_all - function
  * Description: prints all the given string and numbers
- * @separator: a string to separate two strings
  * @format: ncharacter type with string value
  * Return: Nothing
  */
