@@ -35,12 +35,10 @@ void print_all(const char * const format, ...)
 		if (j < 4)
 		{
 			functions[j].func_ptr(all_str);
-			if (j != 3)
-				printf(", ");
+			j != 3 ? printf(", ") : printf("\n") ;
 		}
 		i++;
 	}
-	printf("\n");
 	va_end(all_str);
 }
 
