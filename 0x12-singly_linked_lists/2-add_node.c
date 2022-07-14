@@ -2,12 +2,13 @@
 #include <stdlib.h>
 
 /**
- * list_len - function
- * Description: the number of elements in a linked list
- * @h: a pointer to the list_t struct member head
- * Return: the number of nodes
+ * add_node - function
+ * Description: adds a new node at the beginning of a list_t list
+ * @head: a pointer to the list_t struct member head
+ * @str: The string to be added to the list_t
+ * Return: the address of the new element
  */
-size_t list_len(const list_t *h)
+list_t *add_node(list_t **head, const char *str)
 {
 	char *cp;
 	int len;
