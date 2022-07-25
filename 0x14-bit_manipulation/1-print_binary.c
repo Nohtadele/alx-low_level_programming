@@ -7,23 +7,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	int div = n;
-
-	while (div != 1)
-	{
-		div /= 2;
-		rem = div % 2;
-		_putchar(rem);
-	}
-}
-int binary_rec(int div)
-{
-	if (div == 1)
-	{
-		_putchar(div);
-		return;
-	}
-	div /= 2;
-	rem = div % 2;
-	_putchar(binary_rec(div));
+	if (n > 1)
+		print_binary(n >> 1);
+	_putchar((n & 1) + '0');
 }
